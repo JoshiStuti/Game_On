@@ -1,7 +1,7 @@
 from tkinter import *
 import pandas as pd
 
-df = pd.read_csv("C:\\Users\\user\\OneDrive\\Desktop\\idea.csv")
+df = pd.read_csv("C:\\Users\\user\\OneDrive\\Desktop\\idea.csv") #change the address of the file
 root = Tk()
 root.geometry("500x300")
 root.config(bg="yellow") #button func
@@ -32,7 +32,7 @@ def page2():
 
 
 
- gamedf = pd.read_csv("C:\\Users\\user\\OneDrive\\Desktop\\games.csv")
+ gamedf = pd.read_csv("C:\\Users\\user\\OneDrive\\Desktop\\games.csv")  #change the address of the file
 
 
 
